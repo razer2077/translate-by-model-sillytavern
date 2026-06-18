@@ -1,0 +1,20 @@
+.rp_translate_btn.rp_active {
+    color: var(--golden, gold);
+    opacity: 1;
+}
+.rp_translate_btn.rp_loading {
+    animation: rp_spin 1s linear infinite;
+    pointer-events: none;
+    opacity: 0.6;
+}
+@keyframes rp_spin {
+    to { transform: rotate(360deg); }
+}
+.translate-by-model-settings .text_pole {
+    width: 100%;
+    margin-bottom: 8px;
+}
+.translate-by-model-settings label {
+    display: block;
+    margin-top: 6px;
+}
